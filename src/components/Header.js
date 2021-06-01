@@ -20,7 +20,7 @@ const Header = () => {
                 </h5>
                 
                 {/* Resume Button */}
-                <button class="btn btn-default btn-light">
+                <button class="btn btn-main-info btn-default btn-light">
 
                     {/* Add Link to Resume then delete this comment */}
                     <b>View Resume</b>

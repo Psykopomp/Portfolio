@@ -14,6 +14,10 @@ body {
 }
 
 /* Navbar */
+
+nav {
+  z-index: 2;
+}
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
@@ -56,15 +60,21 @@ body {
 }
 
 
-.btn-default {
-  opacity: 85%;
-  margin-top: 3rem;
+.btn-main-info {
+  opacity: 80%;
+  margin-top: 2rem;
+  z-index: 2;
+}
+.btn-main-info:hover {
+  text-decoration: none;
+  background-color: #E1E1E1;
+  transition: 1.5s ease-in-out;
 }
 
 /* Particles JS */
 .tsparticles-canvas-el {
   position: absolute;
-  heigh: 100vh;
+  height: 100vh;
   width: 100vw;
   z-index: 1;
 }
