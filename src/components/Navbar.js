@@ -1,5 +1,8 @@
 import React from "react"
 import logo from "../logo.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 
 const Navbar = () => {
     return (
@@ -8,7 +11,7 @@ const Navbar = () => {
             <div className="container-fluid">
                 <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo" /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+                <FontAwesomeIcon icon={faBars} />
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -17,7 +20,13 @@ const Navbar = () => {
                     <a className="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
+                    <a className="nav-link" href="#">About</a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link" href="#">Work</a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link" href="#">Life</a>
                     </li>
                 </ul>
                 </div>
