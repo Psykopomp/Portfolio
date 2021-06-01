@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 
+
 const Header = () => {
     return (
         // Beginning of header area
@@ -10,18 +11,21 @@ const Header = () => {
                 <br />
 
                 {/* Typed Script */}
-                <h3><Typed 
+                <h5><Typed 
                     className="typed-text"
-                    strings={["Web Developer", "Software Engineer", "UI/UX Designer", "Programmer", "Friend"]}
-                    typeSpeed={80}
-                    backSpeed={70}
+                    strings={["Full-Stack Web Developer", "Software Engineer", "UI/UX Designer", "Programmer", "Friend"]}
+                    typeSpeed={130}
+                    backSpeed={90}
                     loop />
-                </h3>
+                </h5>
                 
                 {/* Resume Button */}
                 <button class="btn btn-default btn-light">
+
+                    {/* Add Link to Resume then delete this comment */}
                     <b>View Resume</b>
-                </button>            
+                </button>  
+
             </div>
         </div>
     )
