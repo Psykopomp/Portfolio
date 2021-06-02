@@ -8,12 +8,7 @@
 section {padding:2rem;}
 .bg-gray {background-color:#cccccc;}
 .bg-dark {background-color: #262626;}
-
-@media(max-width: 768px) {
-  .dark-background {
-    width: 10rem;
-  }
-}
+.bg-light {background-color: #f8f9fa;}
 
 
 body {
@@ -100,7 +95,7 @@ nav {
 /* Particles JS */
 .tsparticles-canvas-el {
   position: absolute;
-  height: 100vh;
+  height: 40vh;
   width: 100vw;
   z-index: 0;
 }
@@ -128,7 +123,15 @@ nav {
   color: #262626;
 }
 
-/* Skills */
-.skills {
+/* Life */
+
+/* Footer */
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  color: #f8f9fa;
+  margin: 3rem;
 }

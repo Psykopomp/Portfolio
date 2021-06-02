@@ -3,7 +3,7 @@ import React from 'react'
 // Projects here
 const Work = () => {
     return (
-        <section className="bg-gray text-center">
+        <section className="bg-light text-center">
             <div className="container py-5 about-wrapper">
                 <div className="row justify-content-center">
                     <div className="col-12 main-about">
