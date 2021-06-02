@@ -5,29 +5,31 @@ import Typed from "react-typed";
 const Header = () => {
     return (
         // Beginning of header area
-        <div className="header-wrapper">
-            <div className="main-info">
-                <h1>Hi, I'm Jake</h1>
-                <br />
+        <section className="bg-dark text-center">
+            <div className="container header-wrapper">
+                <div className="row justify-content-center">
+                    <div className="col-md-10 main-info">
+                        <h1><b>Hi, I'm Jake</b></h1>
+                        <br />
 
-                {/* Typed Script */}
-                <h5><Typed 
-                    className="typed-text"
-                    strings={["Full-Stack Web Developer", "Software Engineer", "UI/UX Designer", "Programmer", "Friend"]}
-                    typeSpeed={130}
-                    backSpeed={90}
-                    loop />
-                </h5>
-                
-                {/* Resume Button */}
-                <button class="btn btn-main-info btn-default btn-light">
-
-                    {/* Add Link to Resume then delete this comment */}
-                    <b>View Resume</b>
-                </button>  
-
+                        {/* Typed Script */}
+                        <h5><Typed 
+                            className="typed-text"
+                            strings={["Full-Stack Web Developer", "Software Engineer", "UI/UX Designer", "Programmer", "\"Hacker\"", "Friend"]}
+                            typeSpeed={130}
+                            backSpeed={90}
+                            loop />
+                        </h5>
+                        
+                        {/* Resume Button */}
+                        <a href="#" class="btn btn-resume btn-default btn-light">
+                            {/* Add Link to Resume then delete this comment */}
+                            <b>View Resume</b>
+                        </a>    
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
     )
 }
 
