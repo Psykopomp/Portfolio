@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 
 :root {
-  --primary-grey: #E1E1E1;
+  --primary-grey: #f8f9fa;
   --primary-dark: #262626;
 }
 
+@media(max-width: 768px) {
+  .dark-background {
+    width: 10rem;
+  }
+}
+
+
 body {
-  font-family: "Oxygen", sans-serif;
+  font-family: "Oxygen", sans-serif !important;
 }
 
 .logo {
@@ -62,12 +69,12 @@ nav {
 
 .btn-main-info {
   opacity: 80%;
-  margin-top: 2rem;
+  margin-top: 4rem;
   z-index: 2;
 }
 .btn-main-info:hover {
   text-decoration: none;
-  background-color: #E1E1E1;
+  background-color: #f8f9fa;
   transition: 1.5s ease-in-out;
 }
 
@@ -79,4 +86,20 @@ nav {
   z-index: 1;
 }
 
+
+/* About */
+.about-wrapper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #262626;
+}
 
