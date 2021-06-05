@@ -7,7 +7,7 @@ const Work = () => {
     return (
         <div className="portfolio-wrapper bg-gray">
             <div className="container">
-                <h1 className="py-5 text-center"><b>Portfolio</b></h1>
+                <h1 className="p-5 text-center"><b>Portfolio</b></h1>
                 <div className="image-box-wrapper row">
                     <div className="col-md-4">
                     <div className="portfolio-image-box">
