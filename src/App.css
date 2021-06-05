@@ -120,7 +120,7 @@ nav {
 }
 
 /* Divider */
-.strip {
+.divider-one {
   padding: 3rem;
 }
 
@@ -134,8 +134,8 @@ nav {
   height: 3.5rem;
 }
 
-.sills .icon {
-  font-size: 1.4rem;
+.skills .icon {
+  font-size: rem;
   color: var(--primary-dark);
   position: absolute;
   top: 50%;
@@ -146,8 +146,8 @@ nav {
 }
 
 .skills .box {
-  height: 20rem;
-  border-bottom: 4px solid var(--primary-dark);
+  height: 21rem;
+  border-bottom: 3px solid var(--primary-dark);
   margin-bottom: 1.875rem;
 }
 
@@ -165,8 +165,12 @@ nav {
 .skills-p {
   font-weight: 600;
 }
-/* Work */
 
+
+/* Work */
+.divider-two {
+  padding: 3rem;
+}
 
 
 /* Life */

@@ -6,8 +6,9 @@ import { faDesktop, faFileCode, faTree } from "@fortawesome/free-solid-svg-icons
 const Skills = () => {
     return (
         <div className="skills bg-gray text-center">
-                        {/* Skills Container */}
-                        <div className="container py-5">
+
+            {/* Skills Container */}
+            <div className="container py-5">
                 <div className="row">
 
                     {/* Back-End skills */}
@@ -22,6 +23,8 @@ const Skills = () => {
                             <br />Python
                             <br />Express
                             <br />MySQL
+                            <br />AWS
+
                             </p>
                         </div>
                     </div>
@@ -53,11 +56,11 @@ const Skills = () => {
 
                             <h4><b>Real-Life</b></h4>
                             <br />
-                            <p  className="skills-p">Amateur Cook
-                            <br />Amateur Pilot
+                            <p  className="skills-p">Amateur Pilot
+                            <br />Amateur Cook
                             <br />Amateur Coach
                             <br />Amateur Explorer
-                            <br />Amateur Botanist
+                            <br />Amateur Gardener
                             <br />Professional Developer
 
                             </p>                        

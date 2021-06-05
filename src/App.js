@@ -6,8 +6,8 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import DividerOne from "./components/DividerOne"
+import DividerTwo from "./components/DividerTwo";
 import Work from "./components/Work";
-import Life from "./components/Life";
 import Footer from "./components/Footer";
 
 
@@ -36,8 +36,8 @@ function App() {
       <About />
       <DividerOne />
       <Skills />
+      <DividerTwo />
       <Work />
-      <Life />
       <Footer />
     </div>
   );
