@@ -178,12 +178,17 @@ nav {
 .portfolio-image {
   width: 15rem;
   border: 1px solid var(--primary-dark);
+
 }
 
 .portfolio-image-box {
   position: relative;
   margin: 1rem;
   padding-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .overflow {
