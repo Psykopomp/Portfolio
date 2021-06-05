@@ -1,19 +1,39 @@
-import React from 'react'
+import React from "react"
+import campsite from "../images/campsite.png"
+import movieapp from "../images/movieapp.png"
+import nemipizza from "../images/nemipizza.png"
 
 const Work = () => {
     return (
-        <section className="bg-gray text-center">
-            <div className="container py-5">
-                <div className="row justify-content-center">
-                    <div className="col-12 main-about">
-                        <h1><b>Projects</b></h1>
-                        <br />
-                        <p>Here go carousel
-                        </p>
+        <div className="portfolio-wrapper bg-gray">
+            <div className="container">
+                <h1 className="py-5 text-center"><b>Portfolio</b></h1>
+                <div className="image-box-wrapper row justify-content-center">
+                    <div className="col-md-4">
+                    <div className="portfolio-image-box">
+                        <img src={nemipizza} alt="Nemi Pizza" className="portfolio-image" />
+                        <div className="overflow"></div>
+
+                    </div>
+                    </div>
+
+                    <div className="col-md-4">
+                    <div className="portfolio-image-box">
+                        <img src={movieapp} alt="Movie App" className="portfolio-image" />
+                        <div className="overflow"></div>
+                        
+                    </div>
+                    </div>
+
+                    <div className="col-md-4">
+                    <div className="portfolio-image-box">
+                        <img src={campsite} alt="campsite" className="portfolio-image" />
+                        <div className="overflow"></div>
+                    </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

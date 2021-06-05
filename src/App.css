@@ -149,12 +149,12 @@ nav {
   height: 21rem;
   border-bottom: 3px solid var(--primary-dark);
   margin-bottom: 1.875rem;
+  transition: 0.3s ease-in-out;
 }
 
 .skills .box:hover {
   background: var(--primary-grey);
   border-bottom: 4px solid green;
-
 }
 
 .skills .box:hover .circle{
@@ -167,14 +167,40 @@ nav {
 }
 
 
-/* Work */
+/* Divider Two */
 .divider-two {
   padding: 3rem;
 }
 
 
-/* Life */
+/* Work */
 
+.portfolio-image {
+  width: 15rem;
+  border: 1px solid var(--primary-dark);
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+  padding-bottom: 3rem;
+}
+
+.overflow {
+  position: absolute;
+    opacity: 0;
+    background: var(--primary-dark);
+    width: 15rem;
+    height: 10rem;
+    top: 0;
+  border: 1px solid var(--primary-grey);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3sec ease-in-out;
+}
 
 
 /* Footer */
