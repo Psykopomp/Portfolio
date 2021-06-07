@@ -14,7 +14,7 @@ const Header = () => {
                         {/* Typed Script */}
                         <h5><Typed 
                             className="typed-text"
-                            strings={["Full-Stack Web Developer", "Software Engineer", "UI/UX Designer", "Programmer", "\"Hacker\"", "Friend"]}
+                            strings={["Full-Stack Web Developer", "Software Engineer", "UI/UX Designer", "Mobile Developer", "Programmer", "\"Hacker\"", "Friend"]}
                             typeSpeed={130}
                             backSpeed={90}
                             loop />
