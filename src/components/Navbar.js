@@ -1,14 +1,16 @@
 import React from "react"
 import logo from "../logo.png"
+import { Link } from "react-scroll"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 
 const Navbar = () => {
     return (
         <>
             {/* Navbar beginning */}
-            <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
             <div className="container-fluid">
 
                 {/* Logo */}
@@ -21,13 +23,13 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                    <Link smooth={true} to="Home" className="nav-link active" aria-current="page" href="#">Home</Link>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">About</a>
+                    <Link smooth={true} to="About" className="nav-link" offset={-100} href="#">About</Link>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Work</a>
+                    <Link smooth={true} to="Work" className="nav-link" offset={-100} href="#">Work</Link>
                     </li>
                 </ul>
                 </div>

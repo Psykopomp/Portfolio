@@ -10,7 +10,7 @@ const Work = () => {
 
 
     return (
-        <div className="portfolio portfolio-wrapper bg-gray">
+        <div id="Work" className="portfolio portfolio-wrapper bg-gray">
             <div className="container">
                 <h1 className="p-5 text-center after-line-work"><b>Portfolio</b></h1>
                 <div className="image-box-wrapper row">
@@ -46,7 +46,6 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            {/* <PopupboxContainer {...popupboxConfigNemi} /> */}
         </div>
     )
 }

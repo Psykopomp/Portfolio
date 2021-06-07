@@ -1,11 +1,10 @@
 import React from "react";
 import Typed from "react-typed";
 
-
 const Header = () => {
     return (
         // Beginning of header area
-        <section className="bg-dark text-center">
+        <section id="Home" className="bg-dark text-center">
             <div className="container header-wrapper">
                 <div className="row justify-content-center">
                     <div className="col-md-10 main-info">
@@ -22,7 +21,7 @@ const Header = () => {
                         </h5>
                         
                         {/* Resume Button */}
-                        <a href="#" class="btn btn-resume btn-default btn-light">
+                        <a href="/JakeRodResume.pdf" class="btn btn-resume btn-default btn-light">
                             {/* Add Link to Resume then delete this comment */}
                             <b>View Resume</b>
                         </a>    
