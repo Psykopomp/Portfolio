@@ -1,3 +1,5 @@
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React from 'react'
 
 
@@ -10,9 +12,10 @@ const Footer = () => {
                     <div className="col-md-10 main-footer">
                         <h1><b>Contact</b></h1>
                         <br />
-                        <p>Have any questions, comments, or inquiries? Feel free to contact me.</p>
+                        <p>Have any questions, comments, or inquiries? 
+                        <br/>Feel free to contact me on LinkedIn.</p>
                         <br />
-                        {/* Need Github, LinkedIn, Email links */}
+                        <a className="footer-icon"href="https://www.linkedin.com/in/jake-rod"><FontAwesomeIcon className="icon" icon={faLinkedin} size="3x" /></a>
                     </div>
                 </div>
             </div>

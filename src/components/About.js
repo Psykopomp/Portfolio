@@ -9,7 +9,7 @@ const About = () => {
             <div className="container py-5">
                 <div className="row justify-content-center">
                     <div className="col-12 main-about">
-                        <h1><b>About Me</b></h1>
+                        <h1 className="after-line"><b>About Me</b></h1>
                         <br />
                         <p>My name is <b>Jake Rod</b>, 
                             <br /> I'm a <b>full-stack web developer.</b>

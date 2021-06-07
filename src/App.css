@@ -155,7 +155,7 @@ nav {
 .skills .box:hover {
   background: var(--primary-grey);
   border-bottom: 4px solid green;
-}
+} 
 
 .skills .box:hover .circle{
   background: rgb(74, 182, 74);
@@ -184,27 +184,59 @@ nav {
 .portfolio-image-box {
   position: relative;
   margin: 1rem;
-  padding-bottom: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-.overflow {
+.portfolio-image-box:hover {
+  color: bg-dark;
+  opacity: 70%;
+}
+
+
+
+.portfolio .circle {
+  position: relative;
+  margin: 2rem auto;
+  border-radius: 50%;
+  background: var(--primary-grey);
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.portfolio .icon {
+  font-size: 2rem;
+  color: var(--primary-dark);
   position: absolute;
-    opacity: 0;
-    background: var(--primary-dark);
-    width: 15rem;
-    height: 10rem;
-    top: 0;
-  border: 1px solid var(--primary-grey);
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.portfolio .circle:hover{
+  background: rgb(74, 182, 74);
   cursor: pointer;
 }
 
-.portfolio-image-box:hover .overflow {
-  opacity: 60%;
-  transition: 0.3sec ease-in-out;
+.after-line:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 20px;
+  border-bottom: 1px solid black;
+}
+
+.after-line-work:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  padding-top: 20px;
+  border-bottom: 1px solid black;
 }
 
 
@@ -217,4 +249,8 @@ nav {
   text-align: center;
   color: #f8f9fa;
   margin: 3rem;
+}
+
+.footer-icon {
+  color: #f8f9fa;
 }
