@@ -82,7 +82,6 @@ nav {
 
 
 .btn-resume {
-  opacity: 80%;
   border: 1px;
   z-index: 2;
   margin: 2rem;
@@ -192,8 +191,7 @@ nav {
 }
 
 .portfolio-image-box:hover {
-  color: bg-dark;
-  opacity: 70%;
+  cursor: pointer;
 }
 
 
